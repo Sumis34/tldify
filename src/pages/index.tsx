@@ -80,7 +80,7 @@ const Tldify: NextPage = () => {
 
   return (
     <main
-      className="relative flex h-screen w-screen items-center justify-center overflow-hidden bg-black before:absolute before:aspect-square before:w-96 before:origin-center before:scale-150 before:rounded-full before:bg-black before:opacity-50 before:blur-xl"
+      className="p-5 relative flex h-screen w-screen items-center justify-center overflow-hidden bg-black before:absolute before:aspect-square before:w-96 before:origin-center before:scale-150 before:rounded-full before:bg-black before:opacity-50 before:blur-xl"
       style={{
         backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234f66d9' fill-opacity='0.5'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
       }}
