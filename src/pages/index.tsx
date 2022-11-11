@@ -95,7 +95,7 @@ const Tldify: NextPage = () => {
 
         <div className="relative mt-3 w-full">
           <input
-            placeholder="youtu.be"
+            placeholder="google"
             pattern=""
             className="w-full rounded-lg py-2 px-3 text-xl font-bold invalid:outline-2 focus-visible:outline-none"
             type="text"
