@@ -114,6 +114,7 @@ const Tldify: NextPage = () => {
                       className="inline-block w-full px-3 py-2"
                       href={goDaddyLink(fqdn)}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {fqdn}
                     </a>
